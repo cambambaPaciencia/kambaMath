@@ -16,9 +16,76 @@
     --m-header: 2rem;
     --p-btn: .5rem;
     --brd-radius: .3rem;
+    --lh-title: 3rem;
 
     /* --------- complements ---------*/
     --ts-time: all .2s ease-in;
+    --c-width: 80%;
 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--bg-color-1);
+}
+
+header{
+    background-color: var(--primary-color);
+    color: var(--bg-color-2);
+    padding: var(--p-btn);
+    text-align: center;
+}
+
+.title{
+    width: var(--c-width);    
+    margin: var(--fs-in-lab) auto;
+}
+
+.title h3{
+    font-size: var(--fs-title);
+    line-height: var(--lh-title);
+}
+
+.container{
+    width: var(--c-width);
+    margin: var(--fs-in-lab) auto;
+    background-color: var(--bg-color-2);
+    border-radius: var(--brd-radius);
+    border: 1px solid var(--brd-color);
+    padding: 2rem;
+}
+
+.container .formItem{
+    width: 90%;
+    margin: var(--p-btn) auto;
+}
+
+label{
+    display: block;
+    font-size: .88rem;
+    line-height: calc(var(--lh-title) - var(--fs-in-lab));
+}
+
+input,select{
+    width: 100%;
+    outline: none;
+    border:  1px solid var(--brd-color);
+    border-radius: var(--brd-radius);
+    padding: var(--p-btn);
+}
+
+
+
+
+
+
+footer{
+    opacity: 0.1;
 }
 
