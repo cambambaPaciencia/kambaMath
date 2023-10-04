@@ -1,0 +1,24 @@
+:root{
+
+    /*--------- Colors ---------*/
+    --primary-color: #3e3ecc;
+    --primary-color-dark: #272784;
+    --bg-color-1: #f0f1f1;
+    --bg-color-2: #fff;
+    --brd-color: #ccc;
+    --brd-color-dark: #b7b7b7;
+    
+
+    /*--------- Sizes ---------*/
+    --fs-in-lab: 1rem;
+    --fs-title: 1.5rem;
+    --fs-footer: .8rem;
+    --m-header: 2rem;
+    --p-btn: .5rem;
+    --brd-radius: .3rem;
+
+    /* --------- complements ---------*/
+    --ts-time: all .2s ease-in;
+
+}
+
