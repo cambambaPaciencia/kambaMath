@@ -18,41 +18,33 @@
     </div>
 
     <div class="container">
-      <div class="formItem">
-        <label for="valor1">Primeiro Valor</label>
-        <input
-          type="number"
-          id="valor1"
-          name="valor1"
-          placeholder="Digite o Primeiro Valor"
-        />
-      </div>
-      <div class="formItem">
-        <label for="valor2">Segundo Valor</label>
-        <input
-          type="number"
-          id="valor2"
-          name="valor2"
-          placeholder="Digite o Segundo Valor"
-        />
-      </div>
-      <div class="formItem">
-        <label for="operacao">Operação</label>
-        <select name="operacao" id="operacao">
-          <option value="">Escolha a Operação</option>
-          <option value="1">Soma</option>
-          <option value="2">Subtração</option>
-          <option value="3">Multiplicação</option>
-          <option value="4">Divisão</option>
-        </select>
-      </div>
-      <div class="formItem">
-        <button type="submit">Calcular</button>
-        <button type="reset">Limpar</button>
-      </div>
+      <form action="">
+        <div class="formItem">
+          <label for="valor1">Primeiro Valor</label>
+          <input type="number" id="valor1" name="valor1" placeholder="Digite o Primeiro Valor"/>
+        </div>
+        <div class="formItem">
+          <label for="valor2">Segundo Valor</label>
+          <input type="number" id="valor2" name="valor2" placeholder="Digite o Segundo Valor"/>
+        </div>
+        <div class="formItem">
+          <label for="operacao">Operação</label>
+          <select name="operacao" id="operacao">
+            <option value="">Escolha a Operação</option>
+            <option value="1">Soma</option>
+            <option value="2">Subtração</option>
+            <option value="3">Multiplicação</option>
+            <option value="4">Divisão</option>
+          </select>
+        </div>
+        <div class="formItem">
+          <button type="button" id="btn">Calcular</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
     </div>
 
-    <div class="container hide">
+    <div class="container hide" id="box">
       <p>O resultado é: <span id="resultado"></span></p>
     </div>
 
